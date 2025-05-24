@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southern Flair BBQ</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f5f2; color: #333; }
+        header { background-color: #8b0000; color: white; padding: 20px; text-align: center; }
+        header img { max-width: 150px; display: block; margin: 0 auto 10px; }
+        nav { text-align: center; background-color: #d2691e; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { padding: 20px; max-width: 900px; margin: auto; }
+        footer { background-color: #333; color: white; text-align: center; padding: 15px; }
+        .menu-item { border-bottom: 1px solid #ccc; padding: 10px 0; }
+        .hero { background-image: url('your-bbq-image.jpg'); background-size: cover; background-position: center; color: white; text-align: center; padding: 100px 20px; }
+        .hero h1 { font-size: 48px; }
+        .hero p { font-size: 24px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="southern_flair_logo.png" alt="Southern Flair BBQ Logo">
+        <h1>Southern Flair BBQ</h1>
+        <p>Memphis Soul, Arizona Smoke</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to Southern Flair BBQ</h1>
+        <p>Slow-smoked meats, family recipes, and tailgate vibes</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Founded by Dominique Fayne, a proud correctional officer from Casa Grande, Arizona, Southern Flair BBQ draws inspiration from Memphis pit mastery, mama's kitchen magic, and the unforgettable energy of Southern football tailgates. Our mission: serve bold, soulful barbecue that brings people together, feeds families, and fuels good times.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Smoked Pork Butt</h3>
+            <p>Slow-cooked for hours, tender and juicy, served with our signature sauce.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Brisket Plate</h3>
+            <p>Texas-style brisket with a Memphis twist, sliced to perfection.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Southern Sides</h3>
+            <p>Classic mac and cheese, baked beans, coleslaw, and cornbread.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact & Orders</h2>
+        <p>Ready to place an order or book us for your next event or tailgate? Send us a message on Instagram <strong>@southernflairbbq</strong> or email us at <a href="mailto:dfayne28@gmail.com">dfayne28@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Southern Flair BBQ | Follow us on Instagram @southernflairbbq
+    </footer>
+</body>
+</html>
